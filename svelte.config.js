@@ -26,9 +26,9 @@ const config = {
 		paths: {
 			// change below to your repo name
 			base: dev ? '' : 'https://github.com/haguerrerob/intro-section-with-dropdown-navigation.git'
-		},
+		}
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		// target: '#svelte'
 	}
 };
 
