@@ -2,7 +2,6 @@
 <script>
 	import HeaderContentMobile from './HeaderContentMobile.svelte';
 	import HeaderContentDesktop from './HeaderContentDesktop.svelte';
-	import { fly } from 'svelte/transition';
 
 	import Sidebar from './Sidebar.svelte';
 	let band = false;
