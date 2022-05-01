@@ -5,7 +5,7 @@
 		"deploy": "node ./gh-pages.js",
 		"dev": "svelte-kit dev",
 		"build": "npm run clean && svelte-kit build",
-		"clean": "trash build",
+		"clean": "trash docs/",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
