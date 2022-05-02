@@ -11,7 +11,8 @@ const config = {
 			pages: 'docs',
 			assets: 'docs',
 			fallback: 'index.html'
-		})
+		}),
+		ssr: false
 		// paths: {
 		// 	// 	// change below to your repo name
 		// 	base: dev ? '' : '/intro-section-with-dropdown-navigation.git'
