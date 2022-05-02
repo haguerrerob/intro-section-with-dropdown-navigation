@@ -10,7 +10,7 @@ const config = {
 		adapter: adapter({
 			pages: 'docs',
 			assets: 'docs',
-			fallback: null
+			fallback: 'index.html'
 		})
 		// paths: {
 		// 	// 	// change below to your repo name
