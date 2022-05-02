@@ -6,7 +6,7 @@ publish(
 		branch: 'gh-pages',
 		repo: 'https://github.com/haguerrerob/intro-section-with-dropdown-navigation.git', // Update to point to your repository
 		user: {
-			name: 'Armando Guerrero', // update to use your name
+			name: 'haguerrerob', // update to use your name
 			email: 'haguerrerob@gmail.com' // Update to use your email
 		},
 		dotfiles: true
