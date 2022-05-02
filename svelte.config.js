@@ -11,12 +11,12 @@ const config = {
 			pages: 'docs',
 			assets: 'docs',
 			fallback: null
-		}),
+		})
 		// paths: {
-		// 	// change below to your repo name
+		// 	// 	// change below to your repo name
 		// 	base: dev ? '' : '/intro-section-with-dropdown-navigation.git'
 		// },
-		prerender: { default: true }
+		// prerender: { default: true }
 	}
 };
 
