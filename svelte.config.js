@@ -14,7 +14,7 @@ const config = {
 		}),
 		paths: {
 			// 	// change below to your repo name
-			base: dev ? '' : '/intro-section-with-dropdown-navigation.git'
+			base: dev ? '' : '/intro-section-with-dropdown-navigation'
 		}
 		// prerender: { default: true }
 	}
