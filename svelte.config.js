@@ -24,7 +24,7 @@ import adapter from '@sveltejs/adapter-static';
 
 // import adapter from 'svelte-adapter-github';
 
-// const dev = process.env.NODE_ENV === 'development';
+const dev = process.env.NODE_ENV === 'development';
 
 const config = {
 	preprocess: preprocess(),
@@ -40,7 +40,7 @@ const config = {
 			// precompress: false
 		}),
 		paths: {
-			// base: dev ? '' : '/intro-section-with-dropdown-navigation'
+			base: dev ? '' : '/intro-section-with-dropdown-navigation/docs'
 		},
 		appDir: '_app'
 	}
